@@ -1,4 +1,4 @@
-#https://www.beecrowd.com.br/judge/pt/runs/code/25986878
+#https://www.beecrowd.com.br/judge/pt/problems/view/1038
 
 def produto(id):
     if id == 1:
