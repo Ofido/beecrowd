@@ -1,0 +1,2 @@
+o resultado foi inconclusivo, a versão 1 funciona, mas ela tem um grande problema com performance, tentei ressolver na v2 e com a ajuda do caderno, mas com os valores grandes algo para de funcionar e fica inviavel degugar o código.
+preciso de uma operação matematica para facilitar.
