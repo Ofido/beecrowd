@@ -24,3 +24,11 @@ select categories.name as name, SUM(products.amount) as sum from products, categ
 
 /* 2610 - Valor Médio dos Produtos */
 select round(avg(price),2) from products
+
+/* 2611 - Filmes de Ação */
+select movies.id, movies.name from movies, genres where genres.id = id_genres and genres.description like 'Action'
+
+/* 2613 - Filmes em Promoção */
+select movies.id, movies.name from movies, prices where prices.id = id_prices and prices.value < 2.00
+
+/* 2614 - Locações de Setembro */
