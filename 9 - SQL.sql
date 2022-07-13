@@ -32,3 +32,4 @@ select movies.id, movies.name from movies, genres where genres.id = id_genres an
 select movies.id, movies.name from movies, prices where prices.id = id_prices and prices.value < 2.00
 
 /* 2614 - Locações de Setembro */
+select name, rentals_date from rentals, customers where customers.id = id_customers and rentals_date >= '2016-09-01' and rentals_date <= '2016-09-31'
