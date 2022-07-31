@@ -7,7 +7,7 @@ while True:
     if n == 0:
         break
 
-    n = list(map(lambda x: x == "1", input().split(' ')))
+    n = list(map(lambda x: x == "1", input().split()))
 
     # 0 | False -> maria
     x = n.count(False)

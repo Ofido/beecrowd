@@ -2,7 +2,7 @@
 #
 
 while True:
-    hora_que_dormiu, minuto_que_dormiu, hora_de_acordar, minuto_de_acordar = list(map(int, input().split(' ')))
+    hora_que_dormiu, minuto_que_dormiu, hora_de_acordar, minuto_de_acordar = list(map(int, input().split()))
 
     if hora_que_dormiu + minuto_que_dormiu + hora_de_acordar + minuto_de_acordar == 0:
         break

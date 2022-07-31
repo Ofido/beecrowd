@@ -14,7 +14,7 @@ def kill(grupo:list, mortes_da_rodada:list):
 
 qnt = input()
 for _ in range(int(qnt)):
-    n, k = list(map(int, input().split(' ')))
+    n, k = list(map(int, input().split()))
     pessoas = list(range(1,n+1))
     cnt = 0
     mortes = []

@@ -36,7 +36,7 @@ while True:
         botas = Bota()
 
         for bota in range(int(qnt)):
-            numero, lado = input().split(' ')
+            numero, lado = input().split()
             botas.add_bota(int(numero), lado)
 
         print(botas)

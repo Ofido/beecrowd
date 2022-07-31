@@ -1,7 +1,7 @@
 #https://www.beecrowd.com.br/judge/pt/problems/view/1013
 #tempo limite atingido
 
-A, B, C = list(map(int, input().split(' ')))
+A, B, C = list(map(int, input().split()))
 
 while True:
     if A > C and A > B:

@@ -38,7 +38,7 @@ def do_RETANGULO(**kwargs) -> float:
     """
     return kwargs['medida_A'] * kwargs['medida_B']
 
-medida_A, medida_B, medida_C = list(map(float, input().split(' ')))
+medida_A, medida_B, medida_C = list(map(float, input().split()))
 
 for figura in [('TRIANGULO', do_TRIANGULO), ('CIRCULO', do_CIRCULO), ('TRAPEZIO', do_TRAPEZIO), ('QUADRADO', do_QUADRADO), ('RETANGULO', do_RETANGULO)]:
     print(f"{figura[0]}: {(figura[1](medida_A=medida_A, medida_B=medida_B, medida_C=medida_C)):.3f}")

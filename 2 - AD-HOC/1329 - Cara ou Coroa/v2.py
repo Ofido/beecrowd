@@ -7,7 +7,7 @@ while True:
     if n == 0:
         break
 
-    n = input().split(' ')
+    n = input().split()
 
     # n = list(map(lambda x: x == "1", ))
 
