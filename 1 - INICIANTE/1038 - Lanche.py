@@ -1,6 +1,6 @@
 #https://www.beecrowd.com.br/judge/pt/problems/view/1038
 
-def produto(id):
+def produto(id) -> float:
     if id == 1:
         return 4
     if id == 2:
@@ -11,8 +11,9 @@ def produto(id):
         return 2
     if id == 5:
         return 1.5
+    return 0.0
 
-id, qnt = input().split()
-prc = produto(int(id))
-total = prc*int(qnt)
+id, qnt = map(int, input().split())
+prc = produto(id)
+total = prc*qnt
 print(f"Total: R$ {total:.2f}")
